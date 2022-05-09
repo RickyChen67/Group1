@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     public float playerStamina = 2f;
 
     public bool sprinting = false;
+    public bool stamRefil = true;
 
     private float stamMax;
 
@@ -30,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
         Vector3 move = transform.right * x + transform.forward * z;
 
         //Sprints when player hits shift unless no stamina, ends sprint when shift lifted
-        if (Input.GetKeyDown(KeyCode.LeftShift) && playerStamina > 0)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && playerStamina > 0 && stamRefil)
         {
             sprinting = true;
         } else if (Input.GetKeyUp(KeyCode.LeftShift))
@@ -42,8 +43,14 @@ public class PlayerMovement : MonoBehaviour
         if (playerStamina <= 0 && sprinting)
         {
             sprinting = false;
-            playerStamina = -4f;
+            playerStamina = -1f;
+            stamRefil = false;
         }
+
+        if (playerStamina == stamMax)
+        {
+            stamRefil = true;
+        } 
 
         //Moves faster when sprinting but consumes stamina, when not moves slower and restores stamina slower to a cap
         if (sprinting)
