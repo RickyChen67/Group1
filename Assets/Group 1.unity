@@ -253,7 +253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   holdingName: 0
   move: 100
-  testing: {fileID: 17380101}
+  testing: {fileID: 0}
 --- !u!1 &589744816
 GameObject:
   m_ObjectHideFlags: 0
