@@ -135,8 +135,10 @@ GameObject:
   - component: {fileID: 17380099}
   - component: {fileID: 17380098}
   - component: {fileID: 17380097}
+  - component: {fileID: 17380101}
+  - component: {fileID: 17380102}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -213,13 +215,45 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17380096}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.07, y: 2, z: 0}
+  m_LocalPosition: {x: 20, y: 2, z: -4}
   m_LocalScale: {x: 1, y: 4, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &17380101
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17380096}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: a77e7e78caca87c42af77bea3e7088b5, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: a77e7e78caca87c42af77bea3e7088b5, type: 2}
+  - {fileID: 7400000, guid: 8af6cb05baff3d24d8cd3eaf65b145ca, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &17380102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17380096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fee9939c80568cb46b481ee311fef0ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  holdingName: 0
+  move: 100
+  testing: {fileID: 17380101}
 --- !u!1 &589744816
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,7 +590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcbc491eb1dde7c45a70d516304ec2d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 100
+  mouseSensitivity: 10
   inverted: 0
   playerBody: {fileID: 1965083532}
 --- !u!81 &1797357814
@@ -662,6 +696,7 @@ MonoBehaviour:
   sprintSpeed: 10
   playerStamina: 4
   sprinting: 0
+  stamRefil: 0
 --- !u!143 &1965083534
 CharacterController:
   m_ObjectHideFlags: 0

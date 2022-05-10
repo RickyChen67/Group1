@@ -20,8 +20,8 @@ public class MouseLook : MonoBehaviour
     //Camera follows the mouse, mouse is locked to center of screen when running and can't look all the way up and around
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
+        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity;
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity;
 
         if (inverted)
         {
