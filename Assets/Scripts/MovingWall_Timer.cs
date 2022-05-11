@@ -10,20 +10,18 @@ public class MovingWall_Timer : MonoBehaviour
 
     private int moveMax;
 
-    public Animation testing;
-    public ArrayList lists = new ArrayList();
+    public Animation wallAnimation;
+    public ArrayList wallAnimationList = new ArrayList();
 
     // Start is called before the first frame update
     void Start()
     {
         moveMax = move;
-        testing = GetComponent<Animation>();
-        foreach (AnimationState state in testing)
+        wallAnimation = GetComponent<Animation>();
+        foreach (AnimationState state in wallAnimation)
         {
-            lists.Add(state.name);
+            wallAnimationList.Add(state.name);
         }
-        Debug.Log(lists[0]);
-        Debug.Log(lists[1]);
     }
 
     // Update is called once per frame
@@ -33,11 +31,13 @@ public class MovingWall_Timer : MonoBehaviour
 
         if (move < 0 && holdingName)
         {
-            testing.Play(lists[0].ToString());
+            // Moves the wall to its designated position
+            wallAnimation.Play(wallAnimationList[0].ToString());
             holdingName = false;
         } else if (move < 0 && !holdingName)
         {
-            testing.Play(lists[1].ToString());
+            // Moves the wall to its original position
+            wallAnimation.Play(wallAnimationList[1].ToString());
             holdingName = true;
         }
 
