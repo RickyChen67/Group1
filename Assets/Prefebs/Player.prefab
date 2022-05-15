@@ -124,7 +124,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 438975158}
-  m_LocalRotation: {x: 0.028029118, y: 0.042422216, z: 0.042422216, w: 0.9978051}
+  m_LocalRotation: {x: 0.023484547, y: -0.061152313, z: 0.045097146, w: 0.99683255}
   m_LocalPosition: {x: 0.39900017, y: -0.22, z: 0.35}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.4}
   m_ConstrainProportionsScale: 0
@@ -132,7 +132,7 @@ Transform:
   - {fileID: 1175633756}
   m_Father: {fileID: 2806637313039960557}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 3, y: 5, z: 5}
+  m_LocalEulerAnglesHint: {x: 3, y: -6.89, z: 5}
 --- !u!33 &438975162
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -208,10 +208,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcb364c5f741b9a46a734ba4b17a6ce1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dechargeRate: 5
-  chargeRate: 20
-  lightIntensity: 10
+  chargePercent: 100
   minChargePercent: 5
+  dechargeRate: 2.5
+  dechargeDelay: 10
+  chargeRate: 50
+  lightIntensity: 5
 --- !u!1 &1175633755
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,14 +238,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175633755}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0.497}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.0019026523, y: 0.043577887, z: -0.043577887, w: 0.99809736}
+  m_LocalPosition: {x: 0.41630363, y: -0.23040438, z: 0.5477721}
+  m_LocalScale: {x: 0.1, y: 0.10000001, z: 0.39999995}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 438975159}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 5, z: -5}
 --- !u!108 &1175633757
 Light:
   m_ObjectHideFlags: 0
@@ -256,9 +258,9 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0.7797861, b: 0.5424528, a: 1}
-  m_Intensity: 10
+  m_Intensity: 5
   m_Range: 10
-  m_SpotAngle: 50
+  m_SpotAngle: 60
   m_InnerSpotAngle: 5
   m_CookieSize: 10
   m_Shadows:
@@ -287,7 +289,7 @@ Light:
       e32: 0
       e33: 1
     m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
+  m_Cookie: {fileID: 2800000, guid: 839ea8cade40165448c47adf2587bae3, type: 3}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
   m_RenderMode: 0

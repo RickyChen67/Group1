@@ -4,49 +4,68 @@ using UnityEngine;
 
 public class FlashlightManager : MonoBehaviour
 {
-    //fog needs to be adjusted, just turn on from editor to enable
+    //fog and light range need to be added
 
-    float chargePercent = 100;
+    [SerializeField] float chargePercent = 100f;
+    public float minChargePercent = 5f;
 
-    public float dechargeRate = 1f;
-    public float chargeRate = 50;
+    public float dechargeRate = 2.5f;
+    public float dechargeDelay = 10f;
+    public float chargeRate = 50f;
 
-    public float lightIntensity = 10;
+    public float lightIntensity = 5f;
+    //public float lightRange = 5f;
     //public float fogIntensity = 0.2f;
 
-    public float minChargePercent = 5;
-
-    bool charge = true;
+    [SerializeField] bool charge = true;
+    [SerializeField] bool grace = false;
 
     void Update()
     {
-        //raise charge over time
-        if (charge == true)
+        if (grace == false)
         {
-            this.transform.GetChild(0).GetComponent<Light>().intensity = lightIntensity * (chargePercent / 100);
-            //RenderSettings.fogDensity = fogIntensity / (chargePercent / 100);
-            chargePercent += chargeRate * Time.deltaTime;
-
-            if (chargePercent > 100)
+            //raise charge over time
+            if (charge == true)
             {
-                charge = false;
+                if (chargePercent > 100)
+                {
+                    chargePercent = 100;
+                    StartCoroutine(GracePeriod()); //start grace period when full
+                }
+                else
+                {
+                    chargePercent += chargeRate * Time.deltaTime;
+                }
             }
 
-            //start coroutine for grace period?
-        }
+            //drop charge over time
+            else if (chargePercent > minChargePercent)
+            {
+                chargePercent -= dechargeRate * Time.deltaTime;
+            }
+            else
+            {
+                chargePercent = minChargePercent;
+            }
 
-        //drop charge over time
-        else if (chargePercent > minChargePercent)
-        {
             this.transform.GetChild(0).GetComponent<Light>().intensity = lightIntensity * (chargePercent / 100);
-            //RenderSettings.fogDensity = fogIntensity / (chargePercent / 100);
-            chargePercent -= dechargeRate * Time.deltaTime;
+            //this.transform.GetChild(0).GetComponent<Light>().range = Mathf.Round(lightRange * (chargePercent / 100);
+            //RenderSettings.fogDensity = fogIntensity * (chargePercent / 100);
         }
     }
 
     public void Refill()
     {
-        //set to charge
+
         charge = true;
+    }
+
+    IEnumerator GracePeriod()
+    {
+        grace = true;
+        yield return new WaitForSeconds(dechargeDelay);
+
+        charge = false;
+        grace = false;
     }
 }
