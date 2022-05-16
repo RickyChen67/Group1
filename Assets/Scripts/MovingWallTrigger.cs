@@ -2,13 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovingWall_Timer : MonoBehaviour
+public class MovingWallTrigger : MonoBehaviour
 {
-
     public bool holdingName;
-    public int move = 100;
 
-    private int moveMax;
 
     public Animation wallAnimation;
     public ArrayList wallAnimationList = new ArrayList();
@@ -16,7 +13,6 @@ public class MovingWall_Timer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        moveMax = move;
         wallAnimation = GetComponent<Animation>();
         foreach (AnimationState state in wallAnimation)
         {
@@ -24,29 +20,24 @@ public class MovingWall_Timer : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        move -= 1;
+        
+    }
 
-        if (move < 0 && holdingName)
+    public void playerTriggered()
+    {
+        if (holdingName)
         {
             // Moves the wall to its designated position
             wallAnimation.Play(wallAnimationList[0].ToString());
             holdingName = false;
-        } else if (move < 0 && !holdingName)
+        }
+        else if (!holdingName)
         {
             // Moves the wall to its original position
             wallAnimation.Play(wallAnimationList[1].ToString());
             holdingName = true;
         }
-
-        
-
-        if (move < 0)
-        {
-            move = moveMax;
-        }
     }
-
 }
