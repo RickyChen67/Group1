@@ -6,7 +6,7 @@ public class FlashlightManager : MonoBehaviour
 {
     //fog and light range need to be added
 
-    [SerializeField] float chargePercent = 100f;
+    [SerializeField] private float chargePercent = 100f;
     public float minChargePercent = 5f;
 
     public float dechargeRate = 2.5f;
@@ -15,17 +15,16 @@ public class FlashlightManager : MonoBehaviour
 
     public float lightIntensity = 5f;
     //public float lightRange = 5f;
-    //public float fogIntensity = 0.2f;
 
-    [SerializeField] bool charge = true;
-    [SerializeField] bool grace = false;
+    [SerializeField] private bool charging = true;
+    [SerializeField] private bool paused = false;
 
     void Update()
     {
-        if (grace == false)
+        if (paused == false)
         {
             //raise charge over time
-            if (charge == true)
+            if (charging == true)
             {
                 if (chargePercent > 100)
                 {
@@ -50,22 +49,21 @@ public class FlashlightManager : MonoBehaviour
 
             this.transform.GetChild(0).GetComponent<Light>().intensity = lightIntensity * (chargePercent / 100);
             //this.transform.GetChild(0).GetComponent<Light>().range = Mathf.Round(lightRange * (chargePercent / 100);
-            //RenderSettings.fogDensity = fogIntensity * (chargePercent / 100);
         }
     }
 
     public void Refill()
     {
 
-        charge = true;
+        charging = true;
     }
 
     IEnumerator GracePeriod()
     {
-        grace = true;
+        paused = true;
         yield return new WaitForSeconds(dechargeDelay);
 
-        charge = false;
-        grace = false;
+        charging = false;
+        paused = false;
     }
 }
