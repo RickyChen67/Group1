@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
-public class MovingWall_Timer : MonoBehaviour
+public class MovingWallRandomTimer : MonoBehaviour
 {
-
     public bool holdingName;
     public int move = 100;
 
@@ -12,6 +12,10 @@ public class MovingWall_Timer : MonoBehaviour
 
     public Animation wallAnimation;
     public ArrayList wallAnimationList = new ArrayList();
+
+    private System.Random random = new System.Random();
+    public int ranMin;
+    public int ranMax;
 
     // Start is called before the first frame update
     void Start()
@@ -34,19 +38,20 @@ public class MovingWall_Timer : MonoBehaviour
             // Moves the wall to its designated position
             wallAnimation.Play(wallAnimationList[0].ToString());
             holdingName = false;
-        } else if (move < 0 && !holdingName)
+        }
+        else if (move < 0 && !holdingName)
         {
             // Moves the wall to its original position
             wallAnimation.Play(wallAnimationList[1].ToString());
             holdingName = true;
         }
 
-        
+
 
         if (move < 0)
         {
+            moveMax = random.Next(ranMin, ranMax);
             move = moveMax;
         }
     }
-
 }
