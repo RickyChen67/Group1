@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class ExitSpawner : MonoBehaviour
 {
-    //to add more exits, add more shelf prefabs under the exit spawner prefab
+    // Used to randomly select an exit and placing the enemy at that exit
 
+    public Transform enemy;
+
+    //to add more exits, add more shelf prefabs under the exit spawner prefab
     void Start()
     {
-        //pick a random shelf to disable
-        this.transform.GetChild(Random.Range(0, this.transform.childCount)).gameObject.SetActive(false);
+        // Gets a random integer to randomly select an exit shelf to be set inactive
+        int randomShelf = Random.Range(0, this.transform.childCount);
+        enemy = GameObject.FindGameObjectWithTag("Enemy").transform;
+
+        enemy.position = this.transform.GetChild(randomShelf).transform.position;
+        this.transform.GetChild(randomShelf).gameObject.SetActive(false);
     }
 }
