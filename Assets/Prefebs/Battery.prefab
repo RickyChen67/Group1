@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2344447642155773254}
   - component: {fileID: 1613207514803636021}
   - component: {fileID: 1276868121000042428}
-  - component: {fileID: 4384391571177390618}
+  - component: {fileID: 4941841657123173162}
   m_Layer: 0
   m_Name: Battery
   m_TagString: Untagged
@@ -98,7 +98,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4384391571177390618
+--- !u!114 &4941841657123173162
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,6 +107,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8640408961915967319}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41aaeca60cfe98d4b9bf8dd5257bf33a, type: 3}
+  m_Script: {fileID: 11500000, guid: 94b4ce9cde5f1224ca6326f20b3011aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

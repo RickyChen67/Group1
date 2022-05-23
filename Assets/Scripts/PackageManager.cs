@@ -4,28 +4,35 @@ using UnityEngine;
 
 public class PackageManager : MonoBehaviour
 {
-    //the boolean for hasPackage is ready, but needs to be hooked up to trigger the ending
+    //to add more package spawn locations, add more package prefabs under the package spawner game object
 
-    public GameObject package;
-    public bool hasPackage;
+    public GameObject holdingPackage;
+    public GameObject exitManager;
+    [SerializeField] private bool hasPackage = false;
 
     void Start()
     {
-        //hide hold package
-        package = GameObject.Find("HoldingPackage");
-        package.GetComponent<Renderer>().enabled = false;
+        //disable all
+        for (int x = 0; x < this.transform.childCount; x++)
+        {
+            this.transform.GetChild(x).gameObject.SetActive(false);
+        }
 
-        hasPackage = false;
+        //pick a random package to enable
+        this.transform.GetChild(Random.Range(0, this.transform.childCount)).gameObject.SetActive(true);
+
+        //hide holding package
+        holdingPackage.GetComponent<Renderer>().enabled = false;
     }
 
-    void OnTriggerEnter(Collider par)
+    public void UpdatePackage(bool packageStatus)
     {
-        //disable on collision
-        this.gameObject.SetActive(false);
+        hasPackage = packageStatus;
 
-        //show holding package
-        package.GetComponent<Renderer>().enabled = true;
+        //update holding package
+        holdingPackage.GetComponent<Renderer>().enabled = hasPackage;
 
-        hasPackage = true;
+        //update exit manager
+        exitManager.GetComponent<ExitManager>().UpdateExit(hasPackage);
     }
 }
