@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
 
     public CharacterController controller;
+    public GameObject GameOver;
 
     public float speed = 12f;
     public float sprintSpeed = 20f;
@@ -18,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+        Time.timeScale = 1;
         stamMax = playerStamina;
     }
 
@@ -65,4 +68,18 @@ public class PlayerMovement : MonoBehaviour
         }
         
     }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Enemy")
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Debug.Log("Player Loses");
+            Time.timeScale = 0;
+            GameOver.SetActive(true);
+        }
+        
+    }
+
+
 }
