@@ -11,7 +11,7 @@ public class MovingWallRandomTimer : MonoBehaviour
     private int moveMax;
 
     public Animation wallAnimation;
-    public ArrayList wallAnimationList = new ArrayList();
+    //public ArrayList wallAnimationList = new ArrayList();
 
     private System.Random random = new System.Random();
     public int ranMin;
@@ -21,11 +21,12 @@ public class MovingWallRandomTimer : MonoBehaviour
     void Start()
     {
         moveMax = move;
-        wallAnimation = GetComponent<Animation>();
+        /*wallAnimation = GetComponent<Animation>();
         foreach (AnimationState state in wallAnimation)
         {
             wallAnimationList.Add(state.name);
-        }
+            Debug.Log(state.name);
+        }*/
     }
 
     // Update is called once per frame
@@ -36,13 +37,14 @@ public class MovingWallRandomTimer : MonoBehaviour
         if (move < 0 && holdingName)
         {
             // Moves the wall to its designated position
-            wallAnimation.Play(wallAnimationList[0].ToString());
+            wallAnimation.Play("1");
+
             holdingName = false;
         }
         else if (move < 0 && !holdingName)
         {
             // Moves the wall to its original position
-            wallAnimation.Play(wallAnimationList[1].ToString());
+            wallAnimation.Play("2");
             holdingName = true;
         }
 

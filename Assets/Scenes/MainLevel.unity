@@ -354,6 +354,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4818053399231651922, guid: 2fce401cae874c54480fcfff4c1409cd, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4818053399231651923, guid: 2fce401cae874c54480fcfff4c1409cd, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -9166,12 +9170,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
-      value: Shelf (341)
+      value: MovingShelf1
       objectReference: {fileID: 0}
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5429284662580903368, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: move
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 5429284662580903368, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: ranMax
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5429284662580903368, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: ranMin
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 5429284662580903368, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5429284662580903368, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: wallAnimation
+      value: 
+      objectReference: {fileID: 756847752}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &756847750 stripped
@@ -9195,6 +9219,23 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!111 &756847752
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756847750}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 1704796186763984fa865a10be4c0411, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 1704796186763984fa865a10be4c0411, type: 2}
+  - {fileID: 7400000, guid: d410212b3b46d7540ac6ae54850fae2d, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &759909023
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20223,7 +20264,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc8dade1371d77f4cb3056dbfbb3d097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 0}
 --- !u!4 &1616166383
 Transform:
   m_ObjectHideFlags: 0
@@ -27550,7 +27590,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f2b7fa1f48036e419cb6cb19df1846e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  batteryCount: 5
 --- !u!1 &4574487171858775162
 GameObject:
   m_ObjectHideFlags: 0
