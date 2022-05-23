@@ -22,12 +22,3 @@ Titi Ekunsanmi
 Camryn Schroder
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-CHANGELOG
-
-5/15/2022
--Created main level scene
--Added exit spawn points
--Added package spawn points & functionality
--Added battery spawn points & functionality
--Added basic flashlight functionality
