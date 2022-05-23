@@ -50,6 +50,8 @@ public class MovingWallRandomTimer : MonoBehaviour
 
         if (move < 0)
         {
+            Debug.Log("Move should trigger");
+            Debug.Log(moveMax);
             moveMax = random.Next(ranMin, ranMax);
             move = moveMax;
         }
