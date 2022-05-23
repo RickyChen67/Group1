@@ -185,7 +185,6 @@ public class Roam : State
             agent.SetDestination(destination);
             if (agent.hasPath)
                 wandering = true;
-
         }
         else if (Vector3.Distance(destination, enemy.transform.position) < 3)
         {
@@ -195,6 +194,9 @@ public class Roam : State
 
         agent.SetDestination(destination);
         runTimer();
+        if (!agent.hasPath)
+            wandering = false;
+
         if (timerExceeded() && (Vector3.Distance(currentPosition, enemy.transform.position) < 1))
             wandering = false;
 
