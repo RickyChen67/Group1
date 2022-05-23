@@ -33,6 +33,7 @@ public class State {
     float viewAngle = 70f;
 
     float timer = 0f;
+    public float timerLimit = 2f;
     public Vector3 currentPosition;
 
     // Constructor
@@ -114,7 +115,7 @@ public class State {
 
     public bool timerExceeded()
     {
-        return (timer % 60 > 2);
+        return (timer % 60 > timerLimit);
     }
 }
 
@@ -278,14 +279,23 @@ public class Hunt : State
     public override void Enter()
     {
         speedAndAccel = 9.5f;
+        timerLimit = 4f;
+        resetTimer();
+        agent.SetDestination(player.position);
+        runTimer();
         base.Enter();
     }
 
     public override void Update()
     {
-        agent.SetDestination(player.position);
+        if (playerInLineOfSight() || playerInProximity() && timerExceeded())
+        {
+            resetTimer();
+            agent.SetDestination(player.position);
+            runTimer();
+        }
 
-        if (!playerInLineOfSight())
+        else if (!playerInLineOfSight() && timerExceeded())
         {
             nextState = new ProximityControl(enemy, agent, player);
             stage = EVENT.EXIT;
