@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - FlashLight
+  - Package
+  - Battery
+  - Enemy
+  - Shelf
+  - Waypoint
   layers:
   - Default
   - TransparentFX
