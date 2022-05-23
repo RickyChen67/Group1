@@ -16,14 +16,11 @@ public class EnemyAI : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
 
         currentState = new Idle(this.gameObject, agent, player);
-
-
     }
 
     void Update()
     {
         // Sets the current state to the state return by the State class
         currentState = currentState.Process();
-        Debug.Log(currentState.name);
     }
 }

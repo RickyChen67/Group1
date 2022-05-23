@@ -30,7 +30,7 @@ public class State {
     public float proximityDistance = 20f;
 
     float viewDistance = 10f;
-    float viewAngle = 70f;
+    float viewAngle = 60f;
 
     float timer = 0f;
     float timerLimit = 2f;
@@ -73,6 +73,12 @@ public class State {
     public bool playerInProximity()
     {
         return (Vector3.Distance(player.position, enemy.transform.position) <= proximityDistance);
+    }
+
+    // Checks if the player is within the proximityDistance/2 of the enemy
+    public bool playerInHuntProximity()
+    {
+        return (Vector3.Distance(player.position, enemy.transform.position) <= proximityDistance/2);
     }
 
     // Checks if the player is in the enemy's line of sight
@@ -284,7 +290,7 @@ public class Hunt : State
     // *** Add animations for enemy hunting and probably sound too ***
     public override void Enter()
     {
-        speedAndAccel = 9.5f;
+        speedAndAccel = 8f;
         resetTimer();
         agent.SetDestination(player.position);
         runTimer();
@@ -293,7 +299,7 @@ public class Hunt : State
 
     public override void Update()
     {
-        if (playerInLineOfSight() || playerInProximity() && timerExceeded())
+        if (playerInLineOfSight() || playerInHuntProximity() && timerExceeded())
         {
             resetTimer();
             agent.SetDestination(player.position);
