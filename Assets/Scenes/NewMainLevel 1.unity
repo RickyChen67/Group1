@@ -7051,6 +7051,7 @@ Transform:
   - {fileID: 1239367466}
   - {fileID: 1191906562}
   - {fileID: 1178218395}
+  - {fileID: 868942195}
   - {fileID: 688028353}
   - {fileID: 1633195780}
   - {fileID: 2074408043}
@@ -7073,7 +7074,6 @@ Transform:
   - {fileID: 189558870}
   - {fileID: 1457663323}
   - {fileID: 1225358345}
-  - {fileID: 868942195}
   - {fileID: 2571835}
   - {fileID: 309185528}
   - {fileID: 164807888}
@@ -12845,7 +12845,7 @@ Transform:
   - {fileID: 1498011902}
   - {fileID: 1677675626}
   m_Father: {fileID: 455546620}
-  m_RootOrder: 154
+  m_RootOrder: 132
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &868942196
 MonoBehaviour:
@@ -26406,7 +26406,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!64 &1731722638
 MeshCollider:
   m_ObjectHideFlags: 0
