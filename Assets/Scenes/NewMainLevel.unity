@@ -174,6 +174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (259)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &2219879 stripped
@@ -231,6 +235,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (362)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -311,6 +319,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &9564704 stripped
@@ -373,6 +385,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (420)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -453,6 +469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (325)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &23752104 stripped
@@ -516,6 +536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (251)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &27063040 stripped
@@ -573,6 +597,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (371)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -652,6 +680,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (423)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -845,6 +877,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (068)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &42004003 stripped
@@ -924,6 +960,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (256)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &45348108 stripped
@@ -981,6 +1021,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -1143,6 +1187,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (446)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &64919728 stripped
@@ -1226,6 +1274,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (056)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -1409,6 +1461,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &87887664 stripped
@@ -1483,6 +1539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (145)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &96215071 stripped
@@ -1545,6 +1605,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (467)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -1625,6 +1689,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (388)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &99393474 stripped
@@ -1704,6 +1772,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (151)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &101215144 stripped
@@ -1772,6 +1844,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (226)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &112077191 stripped
@@ -1835,6 +1911,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (217)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &117764205 stripped
@@ -1897,6 +1977,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Battery (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
 --- !u!1001 &122616854
@@ -1949,6 +2033,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (332)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -2008,6 +2096,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (258)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &133099529 stripped
@@ -2065,6 +2157,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -2129,6 +2225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &139256681 stripped
@@ -2186,6 +2286,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (394)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -2271,6 +2375,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (175)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &155717452 stripped
@@ -2328,6 +2436,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -2408,6 +2520,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (294)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &161014606 stripped
@@ -2486,6 +2602,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (052)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -2570,6 +2690,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (364)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -2752,6 +2876,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (396)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &170929819 stripped
@@ -2929,6 +3057,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (225)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &176079604 stripped
@@ -2987,6 +3119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &176870836 stripped
@@ -3044,6 +3180,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (463)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -3123,6 +3263,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -3208,6 +3352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (401)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &191261642 stripped
@@ -3287,6 +3435,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (280)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &191318469 stripped
@@ -3344,6 +3496,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (445)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -3428,6 +3584,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (044)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -3518,6 +3678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (460)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &208915060 stripped
@@ -3597,6 +3761,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (270)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &210833056 stripped
@@ -3654,6 +3822,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (255)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -3713,6 +3885,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (284)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &225970187 stripped
@@ -3770,6 +3946,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (046)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -3849,6 +4029,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (376)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -3934,6 +4118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (310)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &262678908 stripped
@@ -3991,6 +4179,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (365)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -4076,6 +4268,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (367)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &275872441 stripped
@@ -4154,6 +4350,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (461)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -4260,6 +4460,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &298453701 stripped
@@ -4322,6 +4526,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (363)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -4402,6 +4610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &311192060 stripped
@@ -4480,6 +4692,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (057)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -4569,6 +4785,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Battery (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
 --- !u!1001 &337539035
@@ -4621,6 +4841,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (060)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -4711,6 +4935,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &346856575 stripped
@@ -4784,6 +5012,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -4863,6 +5095,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (263)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -5122,6 +5358,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Package (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 9033700938969996444, guid: 3993ca8a0483df247a605a09bcb1bd68, type: 3}
+      propertyPath: m_TagString
+      value: Package
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3993ca8a0483df247a605a09bcb1bd68, type: 3}
 --- !u!1001 &364417782
@@ -5174,6 +5414,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (395)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -5352,6 +5596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (103)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &366535071 stripped
@@ -5409,6 +5657,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (464)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -5489,6 +5741,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &380555973 stripped
@@ -5563,6 +5819,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (291)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &387510372 stripped
@@ -5626,6 +5886,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &405181338 stripped
@@ -5684,6 +5948,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &411982871 stripped
@@ -5741,6 +6009,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (410)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -5821,6 +6093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &420295348 stripped
@@ -5899,6 +6175,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (299)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -6045,6 +6325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (449)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &429008333 stripped
@@ -6149,6 +6433,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (442)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -6585,6 +6873,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (197)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &465223246 stripped
@@ -6683,6 +6975,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Battery (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
 --- !u!1001 &488321284
@@ -6735,6 +7031,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (248)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -6793,6 +7093,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (342)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -6872,6 +7176,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (328)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -6957,6 +7265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (138)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &510176377 stripped
@@ -7015,6 +7327,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &529004391 stripped
@@ -7072,6 +7388,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -7166,6 +7486,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (419)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -7359,6 +7683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (184)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &571091307 stripped
@@ -7541,6 +7869,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &578221468 stripped
@@ -7602,6 +7934,10 @@ PrefabInstance:
     - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
       propertyPath: m_Name
       value: Battery (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
@@ -7666,6 +8002,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (232)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &584728172 stripped
@@ -7723,6 +8063,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (146)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -7803,6 +8147,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (192)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &593654927 stripped
@@ -7860,6 +8208,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (069)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -7940,6 +8292,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (172)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &607712841 stripped
@@ -8014,6 +8370,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &609059559 stripped
@@ -8071,6 +8431,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (047)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -8186,6 +8550,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (304)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &630156589 stripped
@@ -8248,6 +8616,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Package (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 9033700938969996444, guid: 3993ca8a0483df247a605a09bcb1bd68, type: 3}
+      propertyPath: m_TagString
+      value: Package
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3993ca8a0483df247a605a09bcb1bd68, type: 3}
 --- !u!1001 &637063815
@@ -8304,6 +8676,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -8383,6 +8759,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (149)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -8467,6 +8847,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (262)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &657727390 stripped
@@ -8525,6 +8909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (141)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &657987063 stripped
@@ -8582,6 +8970,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (287)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -8660,6 +9052,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (224)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -8756,6 +9152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &683493435 stripped
@@ -8813,6 +9213,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (072)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -8898,6 +9302,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &690166935 stripped
@@ -8977,6 +9385,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (421)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &694203332 stripped
@@ -9055,6 +9467,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (386)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -9145,6 +9561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (335)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &711970956 stripped
@@ -9232,6 +9652,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (370)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -9410,6 +9834,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (264)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &737316681 stripped
@@ -9467,6 +9895,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -9547,6 +9979,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &743038487 stripped
@@ -9604,6 +10040,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (456)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -9684,6 +10124,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &750584456 stripped
@@ -9741,6 +10185,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (372)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -9846,6 +10294,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Package (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9033700938969996444, guid: 3993ca8a0483df247a605a09bcb1bd68, type: 3}
+      propertyPath: m_TagString
+      value: Package
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3993ca8a0483df247a605a09bcb1bd68, type: 3}
 --- !u!1001 &756847749
@@ -9898,6 +10350,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (341)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -9977,6 +10433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &759909024 stripped
@@ -10034,6 +10494,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (147)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -10093,6 +10557,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (187)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &762978887 stripped
@@ -10150,6 +10618,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -10230,6 +10702,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (389)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &773573168 stripped
@@ -10309,6 +10785,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (253)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &776590942 stripped
@@ -10366,6 +10846,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (267)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -10445,6 +10929,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (399)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -10643,6 +11131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &790756068 stripped
@@ -10721,6 +11213,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -10894,6 +11390,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (140)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &804554785 stripped
@@ -10994,6 +11494,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (295)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &823051048 stripped
@@ -11051,6 +11555,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (144)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -11135,6 +11643,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Package (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9033700938969996444, guid: 3993ca8a0483df247a605a09bcb1bd68, type: 3}
+      propertyPath: m_TagString
+      value: Package
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3993ca8a0483df247a605a09bcb1bd68, type: 3}
 --- !u!1001 &843445929
@@ -11191,6 +11703,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (116)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -11446,6 +11962,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (393)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &844992789 stripped
@@ -11525,6 +12045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (083)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &850461828 stripped
@@ -11603,6 +12127,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (067)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -11709,6 +12237,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (252)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &869233971 stripped
@@ -11766,6 +12298,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -11856,6 +12392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (238)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &885748432 stripped
@@ -11913,6 +12453,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (158)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -11986,6 +12530,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (340)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -12071,6 +12619,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &906814591 stripped
@@ -12154,6 +12706,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Package (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 9033700938969996444, guid: 3993ca8a0483df247a605a09bcb1bd68, type: 3}
+      propertyPath: m_TagString
+      value: Package
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3993ca8a0483df247a605a09bcb1bd68, type: 3}
 --- !u!4 &911792315 stripped
@@ -12211,6 +12767,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (320)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -12275,6 +12835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &931263027 stripped
@@ -12332,6 +12896,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (064)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -12412,6 +12980,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (125)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &944662671 stripped
@@ -12490,6 +13062,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (230)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -12575,6 +13151,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (334)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &950539859 stripped
@@ -12653,6 +13233,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (384)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -12733,6 +13317,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (274)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &963910957 stripped
@@ -12807,6 +13395,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &964435942 stripped
@@ -12865,6 +13457,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &969463328 stripped
@@ -12922,6 +13518,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (373)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -13028,6 +13628,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (152)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &978681358 stripped
@@ -13128,6 +13732,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (379)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &990330621 stripped
@@ -13206,6 +13814,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (447)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -13291,6 +13903,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (297)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1010347033 stripped
@@ -13365,6 +13981,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (168)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1013223697 stripped
@@ -13422,6 +14042,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (465)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -13502,6 +14126,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (135)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1020207673 stripped
@@ -13559,6 +14187,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (366)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -13639,6 +14271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1023209686 stripped
@@ -13718,6 +14354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (124)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1025076575 stripped
@@ -13795,6 +14435,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (181)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -13952,6 +14596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (246)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1027849341 stripped
@@ -14107,6 +14755,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (065)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1031248261 stripped
@@ -14191,6 +14843,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (066)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1034605491 stripped
@@ -14270,6 +14926,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1035814068 stripped
@@ -14336,6 +14996,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (330)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -14441,6 +15105,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Battery (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
 --- !u!1001 &1053656345
@@ -14493,6 +15161,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (457)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -14604,6 +15276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (143)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1085681198 stripped
@@ -14661,6 +15337,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (220)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -14736,6 +15416,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (303)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1093654736 stripped
@@ -14793,6 +15477,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (223)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -14868,6 +15556,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (188)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1100038479 stripped
@@ -14941,6 +15633,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (073)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -15021,6 +15717,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (070)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1108156271 stripped
@@ -15099,6 +15799,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (411)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -15200,6 +15904,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (327)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1114242587 stripped
@@ -15273,6 +15981,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (054)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -15352,6 +16064,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (059)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -15462,6 +16178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Battery (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
 --- !u!1001 &1148016730
@@ -15514,6 +16234,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (415)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -15630,6 +16354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (368)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1159437175 stripped
@@ -15708,6 +16436,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -15814,6 +16546,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1179640525 stripped
@@ -15875,6 +16611,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -15950,6 +16690,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1183231088 stripped
@@ -16012,6 +16756,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Battery (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
 --- !u!1001 &1187152918
@@ -16064,6 +16812,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (257)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -16181,6 +16933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (382)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1190840839 stripped
@@ -16265,6 +17021,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (402)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1199577640 stripped
@@ -16344,6 +17104,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1213937335 stripped
@@ -16417,6 +17181,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -16497,6 +17265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (074)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1222182364 stripped
@@ -16575,6 +17347,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (361)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -16655,6 +17431,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (377)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1226281722 stripped
@@ -16733,6 +17513,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -16921,6 +17705,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (406)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1246091295 stripped
@@ -16999,6 +17787,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (221)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -17116,6 +17908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (405)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1282501327 stripped
@@ -17195,6 +17991,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (458)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1289479943 stripped
@@ -17273,6 +18073,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (470)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -17357,6 +18161,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (265)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1302804642 stripped
@@ -17414,6 +18222,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (398)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -17515,6 +18327,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (216)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1314541413 stripped
@@ -17599,6 +18415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1316333492 stripped
@@ -17677,6 +18497,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (180)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -17871,6 +18695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (162)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1327421270 stripped
@@ -17966,6 +18794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (316)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1335629394 stripped
@@ -18027,6 +18859,10 @@ PrefabInstance:
     - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
       propertyPath: m_Name
       value: Battery (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
@@ -18189,6 +19025,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (200)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1345199827 stripped
@@ -18305,6 +19145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (337)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1352819151 stripped
@@ -18383,6 +19227,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (213)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1354073752 stripped
@@ -18457,6 +19305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (122)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1355757160 stripped
@@ -18530,6 +19382,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (444)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -18609,6 +19465,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (343)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -18693,6 +19553,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (204)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1361860855 stripped
@@ -18771,6 +19635,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (380)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -18851,6 +19719,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (266)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1369913305 stripped
@@ -18929,6 +19801,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (407)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -19014,6 +19890,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (219)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1383068261 stripped
@@ -19092,6 +19972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1384104988 stripped
@@ -19153,6 +20037,10 @@ PrefabInstance:
     - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
       propertyPath: m_Name
       value: Battery (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
@@ -19227,6 +20115,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (331)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -19410,6 +20302,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (261)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1403148779 stripped
@@ -19483,6 +20379,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (468)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -19562,6 +20462,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (378)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -19663,6 +20567,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1409114445 stripped
@@ -19736,6 +20644,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (063)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -19821,6 +20733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (196)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1416685437 stripped
@@ -19894,6 +20810,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (417)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -19982,6 +20902,10 @@ PrefabInstance:
     - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
       propertyPath: m_Name
       value: Battery (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
@@ -20083,6 +21007,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (249)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1429579894 stripped
@@ -20156,6 +21084,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (193)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -20236,6 +21168,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (323)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1434350818 stripped
@@ -20293,6 +21229,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (422)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -20372,6 +21312,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -20473,6 +21417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (400)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1460880416 stripped
@@ -20552,6 +21500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (055)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1467035327 stripped
@@ -20630,6 +21582,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (469)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -20731,6 +21687,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1471812861 stripped
@@ -20804,6 +21764,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (387)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -20883,6 +21847,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (227)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -20988,6 +21956,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (385)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1498011902 stripped
@@ -21088,6 +22060,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (466)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1506058751 stripped
@@ -21172,6 +22148,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (369)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1518262176 stripped
@@ -21250,6 +22230,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (375)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -21330,6 +22314,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (133)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1523913742 stripped
@@ -21408,6 +22396,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (123)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -21509,6 +22501,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (174)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1534405350 stripped
@@ -21582,6 +22578,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (228)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -21660,6 +22660,10 @@ PrefabInstance:
     - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
       propertyPath: m_Name
       value: Battery (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
@@ -21743,6 +22747,10 @@ PrefabInstance:
     - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
       propertyPath: m_Name
       value: Battery (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
@@ -22025,6 +23033,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1576299557 stripped
@@ -22099,6 +23111,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (183)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1579042688 stripped
@@ -22156,6 +23172,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -22235,6 +23255,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (139)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -22361,6 +23385,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Battery (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
 --- !u!4 &1597152097 stripped
@@ -22466,6 +23494,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (326)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1607216422 stripped
@@ -22539,6 +23571,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (231)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -22717,6 +23753,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (109)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1621436416 stripped
@@ -22774,6 +23814,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -22875,6 +23919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (058)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1636818951 stripped
@@ -22954,6 +24002,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1636830198 stripped
@@ -23028,6 +24080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (336)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1636936340 stripped
@@ -23101,6 +24157,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (210)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -23186,6 +24246,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (179)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1653267787 stripped
@@ -23264,6 +24328,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Battery (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
 --- !u!1001 &1657701349
@@ -23316,6 +24384,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (416)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -23438,6 +24510,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (392)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1668879538 stripped
@@ -23517,6 +24593,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1669657870 stripped
@@ -23590,6 +24670,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (215)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -23679,6 +24763,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Battery (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
 --- !u!1001 &1700239562
@@ -23731,6 +24819,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -23811,6 +24903,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (300)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1708461055 stripped
@@ -23890,6 +24986,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (164)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1708550331 stripped
@@ -23963,6 +25063,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (104)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -24063,6 +25167,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (229)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -24266,6 +25374,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Battery (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
 --- !u!1001 &1735353501
@@ -24318,6 +25430,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (289)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -24439,6 +25555,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Package (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 9033700938969996444, guid: 3993ca8a0483df247a605a09bcb1bd68, type: 3}
+      propertyPath: m_TagString
+      value: Package
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3993ca8a0483df247a605a09bcb1bd68, type: 3}
 --- !u!4 &1741802744 stripped
@@ -24517,6 +25637,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -24600,6 +25724,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (391)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -24701,6 +25829,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (148)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1761052300 stripped
@@ -24774,6 +25906,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -24870,6 +26006,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (298)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1767611524 stripped
@@ -24954,6 +26094,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (177)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1773766621 stripped
@@ -25027,6 +26171,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (185)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -25106,6 +26254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1788719074 stripped
@@ -25167,6 +26319,10 @@ PrefabInstance:
     - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
       propertyPath: m_Name
       value: Battery (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
@@ -25230,6 +26386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Battery (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
 --- !u!1001 &1803591464
@@ -25282,6 +26442,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (118)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -25356,6 +26520,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (404)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -25436,6 +26604,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (333)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1810306764 stripped
@@ -25510,6 +26682,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (260)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1813320730 stripped
@@ -25583,6 +26759,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -25663,6 +26843,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (209)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1821060405 stripped
@@ -25720,6 +26904,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (412)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -25804,6 +26992,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1833058760 stripped
@@ -25877,6 +27069,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (443)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -26004,6 +27200,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (171)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1841530836 stripped
@@ -26066,6 +27266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Battery (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
 --- !u!1001 &1843815384
@@ -26118,6 +27322,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (329)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -26192,6 +27400,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (403)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -26272,6 +27484,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (452)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1860180785 stripped
@@ -26350,6 +27566,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (142)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -26450,6 +27670,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (285)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -26644,6 +27868,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (454)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1878833452 stripped
@@ -26744,6 +27972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (045)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1886307760 stripped
@@ -26823,6 +28055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1886351352 stripped
@@ -26896,6 +28132,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (390)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -27125,6 +28365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (189)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1911000569 stripped
@@ -27198,6 +28442,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -27376,6 +28624,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1925145561 stripped
@@ -27513,6 +28765,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (286)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1934684883 stripped
@@ -27608,6 +28864,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (211)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1954230451 stripped
@@ -27685,6 +28945,10 @@ PrefabInstance:
     - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
       propertyPath: m_Name
       value: Battery (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
@@ -27785,6 +29049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Battery (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
 --- !u!1001 &1980236819
@@ -27837,6 +29105,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (462)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -27917,6 +29189,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (383)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1981008096 stripped
@@ -27995,6 +29271,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -28096,6 +29376,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (409)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &1983779202 stripped
@@ -28184,6 +29468,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (296)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &1991990837 stripped
@@ -28257,6 +29545,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (451)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -28336,6 +29628,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (062)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -28421,6 +29717,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (292)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &2000161809 stripped
@@ -28499,6 +29799,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (061)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -28579,6 +29883,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &2002754220 stripped
@@ -28657,6 +29965,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -28737,6 +30049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (150)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &2007882427 stripped
@@ -28810,6 +30126,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (448)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -28895,6 +30215,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (301)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &2018861245 stripped
@@ -28952,6 +30276,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (418)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -29053,6 +30381,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (414)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &2037672797 stripped
@@ -29132,6 +30464,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (137)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &2040040935 stripped
@@ -29205,6 +30541,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (413)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -29393,6 +30733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (247)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &2071339859 stripped
@@ -29487,6 +30831,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (071)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -29618,6 +30966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (455)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!4 &2081194620 stripped
@@ -29697,6 +31049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (293)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &2083438058 stripped
@@ -29770,6 +31126,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (397)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -29849,6 +31209,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (450)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -29932,6 +31296,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (254)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -30027,6 +31395,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -30221,6 +31593,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
 --- !u!1 &2106758023 stripped
@@ -30294,6 +31670,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -30378,6 +31758,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Battery (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
+      value: Battery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
 --- !u!4 &2123795708 stripped
@@ -30439,6 +31823,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (173)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -30513,6 +31901,10 @@ PrefabInstance:
     - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
       propertyPath: m_Name
       value: Shelf (112)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578583595607037459, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
+      propertyPath: m_TagString
+      value: Shelf
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec734020f6227944b898f2daa1d240f, type: 3}
@@ -30630,6 +32022,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Package
       objectReference: {fileID: 0}
+    - target: {fileID: 9033700938969996444, guid: 3993ca8a0483df247a605a09bcb1bd68, type: 3}
+      propertyPath: m_TagString
+      value: Package
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3993ca8a0483df247a605a09bcb1bd68, type: 3}
 --- !u!1001 &2806637314211789968
@@ -30641,6 +32037,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2806637314352462193, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806637314352462193, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 2806637314352462196, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
@@ -30753,7 +32153,7 @@ GameObject:
   - component: {fileID: 8792755547134823921}
   m_Layer: 0
   m_Name: Packages
-  m_TagString: Untagged
+  m_TagString: Package
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30858,6 +32258,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
       propertyPath: m_Name
+      value: Battery
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_TagString
       value: Battery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
