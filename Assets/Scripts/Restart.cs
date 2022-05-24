@@ -19,7 +19,7 @@ public class Restart : MonoBehaviour
 
     public void playAgain()
     {
-        Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);
+        //Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene("NewMainLevel 1");
     }
 }
