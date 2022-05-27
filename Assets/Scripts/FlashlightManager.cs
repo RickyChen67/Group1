@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class FlashlightManager : MonoBehaviour
 {
-    //fog and light range need to be added
-
     [SerializeField] private float chargePercent = 100f;
     public float minChargePercent = 5f;
 
@@ -16,29 +14,36 @@ public class FlashlightManager : MonoBehaviour
     public float lightIntensity = 5f;
     //public float lightRange = 5f;
 
-    [SerializeField] private bool charging = true;
-    [SerializeField] private bool paused = false;
+    [SerializeField] private bool lightOn = true;
+    [SerializeField] private bool charging = false;
+    [SerializeField] private bool graceActive = false;
 
     void Update()
     {
-        if (paused == false)
+        if (Input.GetMouseButtonDown(1) == true)
         {
-            //raise charge over time
-            if (charging == true)
-            {
-                if (chargePercent > 100)
-                {
-                    chargePercent = 100;
-                    StartCoroutine(GracePeriod()); //start grace period when full
-                }
-                else
-                {
-                    chargePercent += chargeRate * Time.deltaTime;
-                }
-            }
+            Switch();
+            //play sound?
+        }
 
+        //raise charge over time
+        if (charging == true)
+        {
+            if (chargePercent > 100)
+            {
+                chargePercent = 100;
+                StartCoroutine(GracePeriod()); //start grace period when full
+            }
+            else
+            {
+                chargePercent += chargeRate * Time.deltaTime;
+            }
+        }
+
+        if (graceActive == false && lightOn == true)
+        {
             //drop charge over time
-            else if (chargePercent > minChargePercent)
+            if (chargePercent > minChargePercent)
             {
                 chargePercent -= dechargeRate * Time.deltaTime;
             }
@@ -52,18 +57,34 @@ public class FlashlightManager : MonoBehaviour
         }
     }
 
+
+    public void Switch()
+    {
+        if (lightOn == true)
+        {
+            this.transform.GetChild(0).gameObject.SetActive(false);
+            lightOn = false;
+        }
+        else if (lightOn == false)
+        {
+            this.transform.GetChild(0).gameObject.SetActive(true);
+            lightOn = true;
+        }
+    }
+
+
     public void Refill()
     {
-
         charging = true;
     }
 
+
     IEnumerator GracePeriod()
     {
-        paused = true;
+        graceActive = true;
         yield return new WaitForSeconds(dechargeDelay);
-
+        
         charging = false;
-        paused = false;
+        graceActive = false;
     }
 }
