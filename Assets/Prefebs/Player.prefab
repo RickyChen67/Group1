@@ -214,8 +214,9 @@ MonoBehaviour:
   dechargeDelay: 10
   chargeRate: 50
   lightIntensity: 5
+  lightOn: 1
   charging: 1
-  paused: 0
+  graceActive: 0
 --- !u!1 &1175633755
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,6 +424,7 @@ GameObject:
   - component: {fileID: 2806637314352462196}
   - component: {fileID: 2806637314352462195}
   - component: {fileID: 2806637314352462194}
+  - component: {fileID: 2564338477938947162}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -459,6 +461,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 2806637314352462194}
+  GameOver: {fileID: 0}
   speed: 4
   sprintSpeed: 10
   playerStamina: 4
@@ -481,4 +484,18 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &2564338477938947162
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2806637314352462193}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
