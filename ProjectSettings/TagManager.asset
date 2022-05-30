@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - Shelf
   - Waypoint
+  - HoldingPackage
   layers:
   - Default
   - TransparentFX

@@ -6,16 +6,19 @@ using UnityEngine.AI;
 public class EnemyAI : MonoBehaviour
 {
     NavMeshAgent agent;
-    Transform player;
-    State currentState;
+    public GameObject player;
+    EnemyState currentState;
+    public MeshRenderer package;
+    public bool hasPackage;
 
     void Start()
     {
         // Gets the variables needed for the State class and sets current state to begin with the Roam state
         agent = this.GetComponent<NavMeshAgent>();
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.FindGameObjectWithTag("Player");
+        package = GameObject.FindGameObjectWithTag("HoldingPackage").GetComponent<MeshRenderer>();
 
-        currentState = new Idle(this.gameObject, agent, player);
+        currentState = new EnemyIdle(this.gameObject, agent, player.transform, package);
     }
 
     void Update()

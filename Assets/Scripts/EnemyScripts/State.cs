@@ -6,12 +6,13 @@ using UnityEngine.AI;
 // Creates a class called State that is in charge the Enemy's states
 public class State {
     // The states the enemy can be in:
-    // Roam: wanders around the maze until it is within a certain distance of the player, goes to proxmity control
-    // Proxmity Control: controls the distance of the enemy to remain within a certain distance of the player
-    // Hunt: chases after the player until the player is outside of the enemy's line of sight
+    // IDLE: Prevents the enemy from moving until it has spawned in one of the exits
+    // ROAM: Wanders around the maze until it is within a certain distance of the player, then goes into INVESTIGATE
+    // INVESTIGATE: Wanders around the maze, while remaining within a certain distance of the player
+    // HUNT: Chases after the player until the player is outside of the enemy's line of sight or hunting proximity
     public enum STATE
     {
-        idle, roam, proximityControl, hunt
+        IDLE, ROAM, INVESTIGATE, HUNT
     };
 
     public enum EVENT
@@ -27,7 +28,7 @@ public class State {
     protected NavMeshAgent agent;
     public float speedAndAccel;
 
-    public float proximityDistance = 20f;
+    public float investigateDistance = 20f;
 
     float viewDistance = 10f;
     float viewAngle = 60f;
@@ -72,13 +73,13 @@ public class State {
     // Checks if the player is within the proximityDistance of the enemy
     public bool playerInProximity()
     {
-        return (Vector3.Distance(player.position, enemy.transform.position) <= proximityDistance);
+        return (Vector3.Distance(player.position, enemy.transform.position) <= investigateDistance);
     }
 
     // Checks if the player is within the proximityDistance/2 of the enemy
     public bool playerInHuntProximity()
     {
-        return (Vector3.Distance(player.position, enemy.transform.position) <= proximityDistance/2);
+        return (Vector3.Distance(player.position, enemy.transform.position) <= investigateDistance / 2);
     }
 
     // Checks if the player is in the enemy's line of sight
@@ -96,6 +97,7 @@ public class State {
         return ((direction.magnitude <= viewDistance && angle <= viewAngle) || target.collider.gameObject.tag == "Player");
     }
 
+    // Finds a random position on the Nav Mesh and returns the position as a Vector3, also sets the current position of the enemy
     public Vector3 getRandomPosition(float radius)
     {
         currentPosition = enemy.transform.position;
@@ -118,6 +120,7 @@ public class State {
     public void runTimer()
     {
         timer += Time.deltaTime;
+        Debug.Log(timer);
     }
 
     public bool timerExceeded()
@@ -135,7 +138,7 @@ public class Idle : State
 {
     public Idle(GameObject _enemy, NavMeshAgent _agent, Transform _player) : base(_enemy, _agent, _player)
     {
-        name = STATE.idle;
+        name = STATE.IDLE;
     }
 
     public override void Enter()
@@ -153,170 +156,6 @@ public class Idle : State
         }
     }
 
-    public override void Exit()
-    {
-        base.Exit();
-    }
-}
-
-public class Roam : State
-{
-    bool wandering = false;
-    Vector3 destination = Vector3.zero;
-
-    public Roam(GameObject _enemy, NavMeshAgent _agent, Transform _player) : base(_enemy, _agent, _player)
-    {
-        name = STATE.roam;
-    }
-
-    // *** Can add animations here to start enemy's roaming state ***
-    public override void Enter()
-    {
-        speedAndAccel = 4f;
-        base.Enter();
-    }
-
-    public void Wander()
-    {
-        if (!wandering)
-        {
-            resetTimer();
-            destination = getRandomPosition(20);
-            agent.SetDestination(destination);
-            if (agent.hasPath)
-                wandering = true;
-        }
-        else if (Vector3.Distance(destination, enemy.transform.position) < 3)
-        {
-            resetTimer();
-            wandering = false;
-        }
-
-        agent.SetDestination(destination);
-        runTimer();
-        if (!agent.hasPath)
-            wandering = false;
-
-        if (timerExceeded() && (Vector3.Distance(currentPosition, enemy.transform.position) < 1))
-            wandering = false;
-
-    }
-
-    public override void Update()
-    {
-        // If the player is within the enemy's proximity, then go into proximity control state
-        if (playerInProximity())
-        {
-            nextState = new ProximityControl(enemy, agent, player);
-            stage = EVENT.EXIT;
-        }
-        else
-        {
-            Wander();
-        }
-    }
-
-    // *** Reset animation here to prevent issues with animation ***
-    public override void Exit()
-    {
-        base.Exit();
-    }
-}
-
-public class ProximityControl : State
-{
-    bool wandering = false;
-    Vector3 destination = Vector3.zero;
-
-    public ProximityControl(GameObject _enemy, NavMeshAgent _agent, Transform _player) : base(_enemy, _agent, _player)
-    {
-        name = STATE.proximityControl;
-    }
-
-    // *** Can add animations here for enemy's proximity control state (most likely the same as roaming, maybe add some sounds here too) ***
-    public override void Enter()
-    {
-        speedAndAccel = 5f;
-        base.Enter();
-    }
-
-    public void controlledWander()
-    {
-        if (!wandering)
-        {
-            resetTimer();
-            destination = getRandomPosition(10);
-            agent.SetDestination(destination);
-            if (agent.hasPath && Vector3.Distance(destination, player.position) <= proximityDistance)
-                wandering = true;
-        }
-        else if (Vector3.Distance(destination, enemy.transform.position) < 3)
-        {
-            resetTimer();
-            wandering = false;
-        }
-
-        agent.SetDestination(destination);
-        runTimer();
-        if (timerExceeded() && Vector3.Distance(currentPosition, enemy.transform.position) < 1)
-            wandering = false;
-    }
-
-    public override void Update()
-    {
-        if (playerInLineOfSight())
-        {
-            nextState = new Hunt(enemy, agent, player);
-            stage = EVENT.EXIT;
-        }
-        else
-        {
-            controlledWander();
-        }
-    }
-
-    // *** Reset animation here to prevent issues with animation and also stop the audio source ***
-    public override void Exit()
-    {
-        base.Exit();
-    }
-}
-
-public class Hunt : State
-{
-    public Hunt(GameObject _enemy, NavMeshAgent _agent, Transform _player) : base(_enemy, _agent, _player)
-    {
-        name = STATE.hunt;
-    }
-
-    // *** Add animations for enemy hunting and probably sound too ***
-    public override void Enter()
-    {
-        speedAndAccel = 8f;
-        resetTimer();
-        agent.SetDestination(player.position);
-        runTimer();
-        base.Enter();
-    }
-
-    public override void Update()
-    {
-        if (playerInLineOfSight() || playerInHuntProximity() && timerExceeded())
-        {
-            resetTimer();
-            agent.SetDestination(player.position);
-        }
-
-        else if (!playerInLineOfSight() && huntTimerExceeded())
-        {
-            nextState = new ProximityControl(enemy, agent, player);
-            stage = EVENT.EXIT;
-        }
-
-        runTimer();
-    }
-
-    // *** Reset animation and sound ***
     public override void Exit()
     {
         base.Exit();
