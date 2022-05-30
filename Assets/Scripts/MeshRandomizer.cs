@@ -8,6 +8,8 @@ public class MeshRandomizer : MonoBehaviour
     public Mesh mesh02;
     public Mesh mesh03;
 
+    public bool randomizeRotation = true;
+
     void Start()
     {
         Mesh[] meshArray = new Mesh[3];
@@ -16,6 +18,10 @@ public class MeshRandomizer : MonoBehaviour
         meshArray[2] = mesh03;
 
         this.GetComponent<MeshFilter>().mesh = meshArray[Random.Range(0, 3)];
-        this.transform.Rotate(0, (90 * Random.Range(0, 4)), 0);
+
+        if (randomizeRotation == true)
+        {
+            this.transform.Rotate(0, (90 * Random.Range(0, 4)), 0);
+        }
     }
 }
