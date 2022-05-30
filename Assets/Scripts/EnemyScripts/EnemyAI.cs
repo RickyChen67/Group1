@@ -25,5 +25,6 @@ public class EnemyAI : MonoBehaviour
     {
         // Sets the current state to the state return by the State class
         currentState = currentState.Process();
+        Debug.Log(currentState.name);
     }
 }

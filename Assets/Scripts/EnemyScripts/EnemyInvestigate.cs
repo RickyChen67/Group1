@@ -14,7 +14,6 @@ public class EnemyInvestigate : EnemyState
     public override void Enter()
     {
         name = State.INVESTIGATE;
-        Debug.Log(name);
         SetAgentSpeedAndAcceleration(investSpeed);
         base.Enter();
     }
@@ -31,7 +30,7 @@ public class EnemyInvestigate : EnemyState
         }
         else
         {
-            if (Vector3.Distance(player.position, destination) > investigationDistance || (agent.remainingDistance <= 1 && agent.remainingDistance > 0))
+            if (Vector3.Distance(player.position, destination) > investigationDistance || (agent.remainingDistance <= 2 && agent.remainingDistance > 0))
                 isMoving = false;
         }
 

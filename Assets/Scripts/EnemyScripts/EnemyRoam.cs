@@ -33,7 +33,7 @@ public class EnemyRoam : EnemyState
         }
         else
         {
-            if (agent.remainingDistance < 1 && agent.remainingDistance > 0)
+            if (agent.remainingDistance < 2 && agent.remainingDistance > 0)
                 isMoving = false;
         }
 

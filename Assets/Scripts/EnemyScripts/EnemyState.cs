@@ -88,10 +88,5 @@ public class EnemyState
         // Debug.Log(timer);
     }
 
-    protected void resetTimer()
-    {
-        timer = 0;
-    }
-
     protected virtual bool timerExceeded() { return false; }
 }
