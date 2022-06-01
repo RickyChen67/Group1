@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
     public bool stamRefil = true;
 
     private float stamMax;
+    public bool paused;
+    public GameObject pauseMenu;
 
     private void Start()
     {
@@ -65,7 +67,26 @@ public class PlayerMovement : MonoBehaviour
             playerStamina += 0.5f * Time.deltaTime;
             playerStamina = Mathf.Clamp(playerStamina, -4f, stamMax);
         }
-        
+
+
+        if (Input.GetKeyDown(KeyCode.Escape) && !paused)
+        {
+            Debug.Log("Paused the game");
+            Time.timeScale = 0;
+            pauseMenu.SetActive(true);
+            paused = true;
+            Cursor.lockState = CursorLockMode.None;
+
+        }
+        else if (Input.GetKeyDown(KeyCode.Escape) && paused)
+        {
+            Debug.Log("Unpaused the game");
+            Time.timeScale = 1;
+            pauseMenu.SetActive(false);
+            paused = false;
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+
     }
 
     public void OnTriggerEnter(Collider other)
