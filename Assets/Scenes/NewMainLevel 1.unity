@@ -25760,6 +25760,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 4818053399231651917, guid: 2fce401cae874c54480fcfff4c1409cd, type: 3}
+      propertyPath: m_AutoBraking
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818053399231651921, guid: 2fce401cae874c54480fcfff4c1409cd, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4818053399231651923, guid: 2fce401cae874c54480fcfff4c1409cd, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -36392,6 +36400,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 438975158, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175633755, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2564338477938947162, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
       propertyPath: m_Radius
       value: 0.7

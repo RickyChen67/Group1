@@ -51,9 +51,14 @@ public class EnemyRoam : EnemyState
 
         // Checks if either a minute has passed, the player obtained the package, is within investigation distance or is within the enemy's line of sight
         // If so, the enemy transitions into its investigation state
-        if (timerExceeded() || package.enabled || isWithinInvestigationDistance() || playerInLineOfSight())
+        if (timerExceeded() || isWithinInvestigationDistance() || playerInLineOfSight())
         {
             nextState = new EnemyInvestigate(enemy, agent, player, package);
+            stage = Event.Exit;
+        }
+        else if (package.enabled)
+        {
+            nextState = new EnemyHunt(enemy, agent, player, package);
             stage = Event.Exit;
         }
     }
