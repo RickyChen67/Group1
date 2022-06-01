@@ -36,4 +36,14 @@ public class MouseLook : MonoBehaviour
         transform.localRotation = Quaternion.Euler(xRotaion, 0f, 0f);
         playerBody.Rotate(Vector3.up * mouseX);
     }
+
+    public void InvertMouse()
+    {
+        inverted = !inverted;
+    }
+
+    public void ChangeSens(int newSens)
+    {
+        mouseSensitivity = newSens;
+    }
 }

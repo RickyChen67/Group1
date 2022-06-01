@@ -19,17 +19,18 @@ public class EnemyState
         Enter, Update, Exit
     };
 
-    public State name;
-    protected Event stage;
-    protected EnemyState nextState;
+    public State name; // The enemy's current state
+    protected Event stage; // The current state's event (from enum Event)
+    protected EnemyState nextState; // The state being transitioned into, i.e. ROAM -> INVESTIGATE, INVESTIGATE -> HUNT, etc.
     
-    protected GameObject enemy;
-    protected NavMeshAgent agent;
-    protected Transform player;
-    protected MeshRenderer package;
+    protected GameObject enemy; // The enemy (tagged "Enemy"), must contain a NavMeshAgent as a component
+    protected NavMeshAgent agent; // The enemy's NavMeshAgent
+    protected Transform player; // The transform of the player (tagged "Player")
+    protected MeshRenderer package; // The package attached to the player (tagged "HoldingPackage")
 
-    protected Vector3 destination;
+    protected Vector3 destination; // The enemy's current destination
     protected bool isMoving = false;
+
     protected int investigationDistance = 15;
     protected int viewDistance = 10;
     protected int viewAngle = 80;
@@ -43,12 +44,16 @@ public class EnemyState
         stage = Event.Enter;
     }
 
+    // Initial function that runs when changing states
     public virtual void Enter() { stage = Event.Update; }
 
+    // The function that runs until a new state is declared
     public virtual void Update() { stage = Event.Update; }
 
+    // The function that runs after a new state is declared to end the current state
     public virtual void Exit() { stage = Event.Exit; }
 
+    // The function to run when using this (EnemyState) class
     public EnemyState Process()
     {
         if (stage == Event.Enter) Enter();
@@ -61,7 +66,8 @@ public class EnemyState
         return this;
     }
 
-    public bool playerInLineOfSight()
+    // Checks if the enemy is looking at the player or the player is within the enemy's view cone
+    protected bool playerInLineOfSight()
     {
         // Casts a ray in front of the enemy to check if the player is directly in front of it
         RaycastHit target;
@@ -75,12 +81,14 @@ public class EnemyState
         return ((direction.magnitude <= viewDistance && angle <= viewAngle) || target.collider.gameObject.tag == "Player");
     }
 
+    // Sets the enemy's speed and acceleration
     protected void SetAgentSpeedAndAcceleration(int speed)
     {
         agent.speed = speed;
         agent.acceleration = speed * 2;
     }
 
+    // A global timer
     protected float timer;
     protected void runTimer()
     {
