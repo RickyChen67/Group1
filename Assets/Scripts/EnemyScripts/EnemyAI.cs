@@ -5,17 +5,17 @@ using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
 {
-    NavMeshAgent agent;
-    public GameObject player;
-    EnemyState currentState;
-    public MeshRenderer package;
-    public bool hasPackage;
+    private NavMeshAgent agent;
+    private GameObject player;
+    private MeshRenderer package;
+    private EnemyState currentState;
 
     void Start()
     {
-        // Gets the variables needed for the State class and sets current state to begin with the Roam state
+        // Gets the variables needed for the State class and sets the current state to begin with the EnemyIdle state
         agent = this.GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player");
+        // Gets the HoldingPackage attached to the player
         package = GameObject.FindGameObjectWithTag("HoldingPackage").GetComponent<MeshRenderer>();
 
         currentState = new EnemyIdle(this.gameObject, agent, player.transform, package);
@@ -23,8 +23,7 @@ public class EnemyAI : MonoBehaviour
 
     void Update()
     {
-        // Sets the current state to the state return by the State class
+        // Sets the current state to the state returned by the EnemyState class
         currentState = currentState.Process();
-        Debug.Log(currentState.name);
     }
 }
