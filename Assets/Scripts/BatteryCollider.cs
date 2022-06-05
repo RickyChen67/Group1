@@ -10,7 +10,7 @@ public class BatteryCollider : MonoBehaviour
         this.gameObject.SetActive(false);
 
         //update battery manager
-        this.transform.parent.GetComponent<BatteryManager>().updateBattery();
-        this.transform.parent.GetComponent<BatteryManager>().playPickupSound();
+        this.transform.parent.transform.parent.GetComponent<BatteryManager>().updateBattery();
+        this.transform.parent.transform.parent.GetComponent<BatteryManager>().playPickupSound();
     }
 }

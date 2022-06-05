@@ -10,6 +10,6 @@ public class PackageCollider : MonoBehaviour
         this.gameObject.SetActive(false);
 
         //update package manager
-        this.transform.parent.gameObject.GetComponent<PackageManager>().UpdatePackage(true);
+        this.transform.parent.transform.parent.gameObject.GetComponent<PackageManager>().UpdatePackage(true);
     }
 }
