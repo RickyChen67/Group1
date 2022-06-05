@@ -199,9 +199,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4920fcddce3ba23458322f8d0419f61e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  package: {fileID: 0}
-  hasPackage: 0
 --- !u!136 &929336747
 CapsuleCollider:
   m_ObjectHideFlags: 0

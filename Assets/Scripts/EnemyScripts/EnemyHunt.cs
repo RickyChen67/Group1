@@ -29,7 +29,7 @@ public class EnemyHunt : EnemyState
         second = enemy.transform.GetChild(1);
 
         SetAgentSpeedAndAcceleration(huntSpeed);
-        agent.autoBraking = true;
+        // agent.autoBraking = true;
         agent.SetDestination(player.position);
 
         base.Enter();
@@ -46,7 +46,7 @@ public class EnemyHunt : EnemyState
         if (timerExceeded() && !playerDetected())
         {
             nextState = new EnemyInvestigate(enemy, agent, player, package);
-            agent.autoBraking = false;
+            // agent.autoBraking = false;
             stage = Event.Exit;
         }
 
