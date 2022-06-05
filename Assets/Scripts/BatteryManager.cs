@@ -45,4 +45,9 @@ public class BatteryManager : MonoBehaviour
         //refill flashlight
         flashlight.GetComponent<FlashlightManager>().Refill();
     }
+
+    public void playPickupSound()
+    {
+        this.gameObject.GetComponent<AudioSource>().Play(0);
+    }
 }

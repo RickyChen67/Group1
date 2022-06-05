@@ -10,6 +10,10 @@ public class PackageManager : MonoBehaviour
     public GameObject exitManager;
     [SerializeField] private bool hasPackage = false;
 
+    private GameObject activePackage;
+    public AudioSource packageSound;
+    public List<AudioClip> packageSounds = new List<AudioClip>(2);
+
     void Start()
     {
         //disable all
@@ -18,8 +22,13 @@ public class PackageManager : MonoBehaviour
             this.transform.GetChild(x).gameObject.SetActive(false);
         }
 
+        activePackage = this.transform.GetChild(Random.Range(0, this.transform.childCount)).gameObject;
+        packageSound = activePackage.GetComponent<AudioSource>();
+        packageSound.clip = packageSounds[0];
+        packageSound.Play(0);
+
         //pick a random package to enable
-        this.transform.GetChild(Random.Range(0, this.transform.childCount)).gameObject.SetActive(true);
+        activePackage.SetActive(true);
 
         //hide holding package
         holdingPackage.GetComponent<Renderer>().enabled = false;
@@ -27,6 +36,11 @@ public class PackageManager : MonoBehaviour
 
     public void UpdatePackage(bool packageStatus)
     {
+        packageSound.Stop();
+        packageSound.loop = false;
+        packageSound.clip = packageSounds[1];
+        packageSound.Play(0);
+
         hasPackage = packageStatus;
 
         //update holding package

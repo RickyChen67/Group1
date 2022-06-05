@@ -17,6 +17,9 @@ public class EnemyHunt : EnemyState
     private Transform second;
     private bool firstWaypoint;
 
+    private Light flashlightLight;
+    private Color originalColor;
+
     public EnemyHunt(GameObject _enemy, NavMeshAgent _agent, Transform _player, MeshRenderer _package) : base(_enemy, _agent, _player, _package) { }
 
     // Sets the enemy's speed and acceleration to huntSpeed
@@ -27,6 +30,10 @@ public class EnemyHunt : EnemyState
         name = State.HUNT;
         first = enemy.transform.GetChild(0);
         second = enemy.transform.GetChild(1);
+
+        flashlightLight = GameObject.FindGameObjectWithTag("FlashlightLight").GetComponent<Light>();
+        originalColor = flashlightLight.color;
+        flashlightLight.color = Color.red;
 
         SetAgentSpeedAndAcceleration(huntSpeed);
         // agent.autoBraking = true;
@@ -41,11 +48,14 @@ public class EnemyHunt : EnemyState
         runTimer();
         runMovingTimer();
 
+        lookAtPlayer();
+
         // Checks if the huntTimerLimit has been reached and if the player is not detected
         // If so, transitions the enemy into its EnemyInvestigate state and turns off AutoBraking
         if (timerExceeded() && !playerDetected())
         {
             nextState = new EnemyInvestigate(enemy, agent, player, package);
+            flashlightLight.color = originalColor;
             // agent.autoBraking = false;
             stage = Event.Exit;
         }
@@ -114,5 +124,10 @@ public class EnemyHunt : EnemyState
     protected bool playerDetected()
     {
         return playerInLineOfSight() || playerInHuntProximity();
+    }
+
+    protected void lookAtPlayer()
+    {
+        enemy.transform.LookAt(player);
     }
 }

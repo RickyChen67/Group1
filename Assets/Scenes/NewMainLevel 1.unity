@@ -5756,6 +5756,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6677047434858369752, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: Priority
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
       propertyPath: m_Name
       value: Battery (1)
@@ -38634,6 +38638,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3053897736343188496}
   - component: {fileID: 3053897736343188497}
+  - component: {fileID: 3053897736343188498}
   m_Layer: 0
   m_Name: Batteries
   m_TagString: Untagged
@@ -38694,10 +38699,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9033700938969996444, guid: 3993ca8a0483df247a605a09bcb1bd68, type: 3}
       propertyPath: m_Name
-      value: Package
-      objectReference: {fileID: 0}
-    - target: {fileID: 9033700938969996444, guid: 3993ca8a0483df247a605a09bcb1bd68, type: 3}
-      propertyPath: m_TagString
       value: Package
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -38766,24 +38767,8 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 438975158, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 1175633755, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 2564338477938947162, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
-      propertyPath: m_Radius
-      value: 0.7
-      objectReference: {fileID: 0}
     - target: {fileID: 2806637314352462193, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
       propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 2806637314352462193, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
-      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 2806637314352462195, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
@@ -38892,6 +38877,102 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flashlight: {fileID: 2017021208}
   batteryCount: 5
+--- !u!82 &3053897736343188498
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470878403009604675}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &4574487171858775162
 GameObject:
   m_ObjectHideFlags: 0
@@ -38956,6 +39037,10 @@ MonoBehaviour:
   holdingPackage: {fileID: 1573004801}
   exitManager: {fileID: 1616166381}
   hasPackage: 0
+  packageSound: {fileID: 0}
+  packageSounds:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1001 &9124548334012994958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39009,10 +39094,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
       propertyPath: m_Name
-      value: Battery
-      objectReference: {fileID: 0}
-    - target: {fileID: 8640408961915967319, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
-      propertyPath: m_TagString
       value: Battery
       objectReference: {fileID: 0}
     m_RemovedComponents: []

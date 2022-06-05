@@ -11,5 +11,6 @@ public class BatteryCollider : MonoBehaviour
 
         //update battery manager
         this.transform.parent.GetComponent<BatteryManager>().updateBattery();
+        this.transform.parent.GetComponent<BatteryManager>().playPickupSound();
     }
 }
