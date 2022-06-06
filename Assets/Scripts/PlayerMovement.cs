@@ -11,6 +11,9 @@ public class PlayerMovement : MonoBehaviour
     public AudioSource movementSound;
     public List<AudioClip> footsteps = new List<AudioClip>(2);
 
+    public AudioSource breathSound;
+    public AudioClip breath;
+
     public float speed = 12f;
     public float sprintSpeed = 20f;
     public float playerStamina = 2f;
@@ -27,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
         Time.timeScale = 1;
         stamMax = playerStamina;
         movementSound.clip = footsteps[0];
+        breathSound.clip = breath;
     }
 
     // Update is called once per frame
@@ -51,6 +55,7 @@ public class PlayerMovement : MonoBehaviour
         //Sends the stamina to negative if player runs until stamina runs out
         if (playerStamina <= 0 && sprinting)
         {
+            breathSound.Play(0);
             movementSound.clip = footsteps[0];
             sprinting = false;
             playerStamina = -1f;
@@ -59,6 +64,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (playerStamina == stamMax)
         {
+            breathSound.Stop();
             stamRefil = true;
         }
 
