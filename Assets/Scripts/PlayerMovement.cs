@@ -24,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
     private float stamMax;
     public bool paused;
     public GameObject pauseMenu;
+    public MouseLook mouseLook;
 
     private void Start()
     {
@@ -97,7 +98,7 @@ public class PlayerMovement : MonoBehaviour
             pauseMenu.SetActive(true);
             paused = true;
             Cursor.lockState = CursorLockMode.None;
-
+            mouseLook.turnOff();
         }
         else if (Input.GetKeyDown(KeyCode.Escape) && paused)
         {
@@ -106,6 +107,7 @@ public class PlayerMovement : MonoBehaviour
             pauseMenu.SetActive(false);
             paused = false;
             Cursor.lockState = CursorLockMode.Locked;
+            mouseLook.turnOn();
         }
 
     }
