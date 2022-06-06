@@ -6132,6 +6132,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4955826051509148016, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -14.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955826051509148016, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 165
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955826051509148016, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -13.1
+      objectReference: {fileID: 0}
     - target: {fileID: 6677047434858369752, guid: 735e01e1d96e38a47a8ef10ba27e1f60, type: 3}
       propertyPath: Priority
       value: 30
@@ -44381,6 +44393,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 438975159, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.437
+      objectReference: {fileID: 0}
+    - target: {fileID: 438975161, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d68290d58384f4b4c857b090ab61f794, type: 2}
+    - target: {fileID: 1175633756, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175633756, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 4.451
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175633756, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -4.931
+      objectReference: {fileID: 0}
     - target: {fileID: 2806637314352462193, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
       propertyPath: m_Name
       value: Player
