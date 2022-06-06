@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class EnemyInvestigate : EnemyState
 {
-    private int investSpeed = 6;
+    private int investSpeed = 4;
     private int investDistance = 5;
     private int investTimerLimit = 120; // 120 seconds
 

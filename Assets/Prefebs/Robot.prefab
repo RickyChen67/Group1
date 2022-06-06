@@ -31,7 +31,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 939884386429869949}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 5, z: -5}
+  m_LocalEulerAnglesHint: {x: 15.286, y: -1.972, z: -0.194}
 --- !u!108 &967683797
 Light:
   m_ObjectHideFlags: 0
@@ -288,7 +288,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 80
+  Priority: 60
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 10

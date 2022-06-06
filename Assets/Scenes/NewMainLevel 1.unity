@@ -44267,18 +44267,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 967683796, guid: 3c5f01714ec8e024cb07fef3b2807f22, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 15.286
-      objectReference: {fileID: 0}
-    - target: {fileID: 967683796, guid: 3c5f01714ec8e024cb07fef3b2807f22, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -1.972
-      objectReference: {fileID: 0}
-    - target: {fileID: 967683796, guid: 3c5f01714ec8e024cb07fef3b2807f22, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -0.194
-      objectReference: {fileID: 0}
     - target: {fileID: 939884386429869943, guid: 3c5f01714ec8e024cb07fef3b2807f22, type: 3}
       propertyPath: m_Name
       value: Robot
@@ -44521,7 +44509,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 90
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

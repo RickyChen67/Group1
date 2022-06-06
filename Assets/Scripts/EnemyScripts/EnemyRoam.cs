@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class EnemyRoam : EnemyState
 {
-    private int roamingSpeed = 4;
+    private int roamingSpeed = 6;
     private int roamTimerLimit = 60; // 60 seconds
     private int roamingDistance = 40;
 
