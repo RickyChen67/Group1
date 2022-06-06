@@ -36,7 +36,6 @@ public class PackageManager : MonoBehaviour
 
     public void UpdatePackage(bool packageStatus)
     {
-        packageSound.Stop();
         packageSound.loop = false;
         packageSound.clip = packageSounds[1];
         packageSound.Play(0);
