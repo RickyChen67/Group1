@@ -19,7 +19,7 @@ public class MainMenu : MonoBehaviour
     void Start()
     {
         // StartCoroutine(waiting());
-    }
+     }
 
     // Update is called once per frame
     void Update()
