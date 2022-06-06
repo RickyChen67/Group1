@@ -3592,17 +3592,17 @@ MonoBehaviour:
 
     S - Walk Back
 
-    D - Walk
-    Right
+    D - Walk Right
 
-    Mouse - Look
+    Mouse
+    - Look
 
     Left Shift - Sprint
 
-    Left Click - Flashlight
-    Toggle
+    Left Click - Flashlight Toggle
 
-    Escape - Pause Menu'
+    Escape
+    - Pause Menu'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1c3df5e9c115e9b4193c13fed2962f84, type: 2}
   m_sharedMaterial: {fileID: 3701668522686409986, guid: 1c3df5e9c115e9b4193c13fed2962f84, type: 2}

@@ -9,7 +9,7 @@ public class MainMenu : MonoBehaviour
 
     public GameObject scenarioPage;
 
-    public GameObject optionsModal;
+    public GameObject controlsModal;
 
     public GameObject creditsModal;
 
@@ -18,7 +18,7 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // StartCoroutine(waiting());
+
      }
 
     // Update is called once per frame
@@ -27,21 +27,24 @@ public class MainMenu : MonoBehaviour
         
     }
 
-    public void PlayGame()
+    public void playGame()
     {
         scenarioPage.SetActive(true);
-        // yield return new WaitForSeconds (5.0);
-        SceneManager.LoadScene(firstLevel);
-    }   
+        }
 
-    public void OpenOptions()
+    public void continueGame()
     {
-        optionsModal.SetActive(true);
+        SceneManager.LoadScene(firstLevel);
+    } 
+
+    public void openControls()
+    {
+        controlsModal.SetActive(true);
     }
 
-    public void closeOptions()
+    public void closeControls()
     {
-        optionsModal.SetActive(false);
+        controlsModal.SetActive(false);
     }
 
     public void openCredits()
