@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The warehouse grows smaller and smaller as you free, now but a small box
+  m_text: "The warehouse grows smaller and smaller as you flee, now but a small box
     on the horizon. You quickly find yourself in your car, ready to drive back home,
     when all of a sudden, you realize your keys are gone. You must have dropped when
     running away from that robot. Luckily, you have your phone, so you decide to
@@ -915,7 +915,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The warehouse grows smaller and smaller as you free, now but a small box
+  m_text: "The warehouse grows smaller and smaller as you flee, now but a small box
     on the horizon. You quickly find yourself driving home, until you hear a familiar
     noise - a humming sound - in your right ear. As you turn towards the passenger
     seat, there is the flashlight you used in that warehouse, flickering. You suddenly
