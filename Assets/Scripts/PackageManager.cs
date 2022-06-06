@@ -26,7 +26,7 @@ public class PackageManager : MonoBehaviour
         packageSound = activePackage.GetComponent<AudioSource>();
         packageSound.clip = packageSounds[0];
         packageSound.Play(0);
-
+         
         //pick a random package to enable
         activePackage.SetActive(true);
 
