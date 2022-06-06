@@ -44580,6 +44580,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 240798202, guid: 3c5f01714ec8e024cb07fef3b2807f22, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f0c7f4c4eeb8ce240aed2572cbaaa0f1, type: 3}
     - target: {fileID: 939884386429869943, guid: 3c5f01714ec8e024cb07fef3b2807f22, type: 3}
       propertyPath: m_Name
       value: Robot
@@ -44738,6 +44742,14 @@ PrefabInstance:
       propertyPath: breathSound
       value: 
       objectReference: {fileID: 2806637314211789970}
+    - target: {fileID: 2806637314352462195, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
+      propertyPath: footsteps.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 3e20ddc146988fa46be1414c2cba7427, type: 3}
+    - target: {fileID: 2806637314352462195, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
+      propertyPath: footsteps.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 44a259c796abff84cb4127433955c625, type: 3}
     - target: {fileID: 2806637314352462196, guid: 75a605e9d4b28624da41e0e587e688f4, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -44947,7 +44959,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: bc02980263617204c8348872bcbb3a57, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -45099,8 +45111,8 @@ MonoBehaviour:
   hasPackage: 0
   packageSound: {fileID: 0}
   packageSounds:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 6a902b51d188be94cba2a6dd3e9113f1, type: 3}
+  - {fileID: 8300000, guid: bc02980263617204c8348872bcbb3a57, type: 3}
 --- !u!1001 &9124548334012994958
 PrefabInstance:
   m_ObjectHideFlags: 0
