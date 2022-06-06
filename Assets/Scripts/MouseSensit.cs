@@ -11,7 +11,6 @@ public class MouseSensit : MonoBehaviour
 
     public void changeSens()
     {
-        Debug.Log("Moved the slider");
         int newSens = (int)slider.value;
         mouseLook.ChangeSens(newSens);
     }
