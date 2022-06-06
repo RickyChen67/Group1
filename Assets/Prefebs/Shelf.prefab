@@ -115,6 +115,7 @@ MonoBehaviour:
   mesh01: {fileID: -71397002364462293, guid: 0d331f4c0f16b4a41989c694e75b18a9, type: 3}
   mesh02: {fileID: -5801117454671909494, guid: 20e4af879f6254a46921a043b21f06cf, type: 3}
   mesh03: {fileID: 8754795312594735232, guid: 1038bcc4046fb68498b75c74ab080862, type: 3}
+  randomizeRotation: 1
 --- !u!114 &4180943161258335442
 MonoBehaviour:
   m_ObjectHideFlags: 0

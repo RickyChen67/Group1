@@ -7,7 +7,7 @@ public class BatteryCollider : MonoBehaviour
     void OnTriggerEnter(Collider par)
     {
         //disable on collision
-        this.gameObject.SetActive(false);
+        this.transform.parent.gameObject.SetActive(false);
 
         //update battery manager
         this.transform.parent.transform.parent.GetComponent<BatteryManager>().updateBattery();
